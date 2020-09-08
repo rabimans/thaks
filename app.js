@@ -2,7 +2,7 @@
 var weather = require('./weather.js');
 var location =  require('./location.js');
 const { array } = require('yargs');
-
+var PORT = process.env.PORT || 3000;
 
 var argv = require('yargs')
     .options('location', {
